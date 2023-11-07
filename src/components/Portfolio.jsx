@@ -1,10 +1,7 @@
 import React from "react";
-import api from "../assets/portfolio/api.jpg";
-import apod from "../assets/portfolio/apod.jpg";
-import iptracker from "../assets/portfolio/iptracker.jpg";
-import nftportal from "../assets/portfolio/nftportal.jpg";
-import webpostman from "../assets/portfolio/webpostman.jpg";
-import waveportal from "../assets/portfolio/waveportal.jpg";
+import pomodoro from "../assets/portfolio/pomodoro.jpg";
+import githunt from "../assets/portfolio/githunt.jpg";
+import portfolio from "../assets/portfolio/portfolio.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -17,33 +14,16 @@ const Portfolio = () => {
     {
       id: 2,
       src: webpostman,
-      link: 'https://webpostman.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Web-Postman'
+      link: 'https://mtechzilla-assesss.vercel.app/',
+      repo: 'https://github.com/atipandde3898/mtechzilla-assesss'
     },
     {
       id: 3,
       src: apod,
-      link: 'https://apodbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NASA-APOD'
+      link: 'https://mtechzilla-assesss-57kd.vercel.app/',
+      repo: 'https://github.com/atipandde3898/mtechzilla-assesment'
     },
-    {
-      id: 4,
-      src: waveportal,
-      link: 'https://waveatrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Wave-Portal'
-    },
-    {
-      id: 5,
-      src: nftportal,
-      link: 'https://nftportalbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NFT-Portal'
-    },
-    {
-      id: 6,
-      src: iptracker,
-      link: 'https://trackmyip.netlify.app/',
-      repo: 'https://github.com/rahulkarda/IP-Address-Tracker'
-    },
+    
   ];
 
   return (
