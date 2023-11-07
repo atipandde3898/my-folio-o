@@ -1,7 +1,7 @@
 import React from "react";
-import pomodoro from "../assets/portfolio/pomodoro.jpg";
-import githunt from "../assets/portfolio/githunt.jpg";
-import portfolio from "../assets/portfolio/portfolio.jpg";
+import pomodoro from "../assets/portfolio/pomodoro.png";
+import githunt from "../assets/portfolio/githunt.png";
+import portfolio from "../assets/portfolio/portfolio.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -52,7 +52,7 @@ const Portfolio = () => {
                  Live Demo
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(repo, '_blank')}>
-                  GitHub
+                  Git Repo
                 </button>
               </div>
             </div>
