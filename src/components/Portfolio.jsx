@@ -12,7 +12,7 @@ const Portfolio = () => {
       id: 1,
       src: api,
       link: 'https://crypto-info-api.cyclic.app/',
-      repo: 'https://github.com/rahulkarda/crypto-info-api'
+      repo: 'https://github.com/atipandde3898/my-folio-o'
     },
     {
       id: 2,
@@ -69,7 +69,7 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(link, '_blank')}>
-                  Demo
+                 Live Demo
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(repo, '_blank')}>
                   GitHub
